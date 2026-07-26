@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+    <action>
+        <actionName>run</actionName>
+        <packagings>
+            <packaging>jar</packaging>
+        </packagings>
+        <goals>
+            <goal>compile</goal>
+            <goal>exec:java</goal>
+        </goals>
+        <properties>
+            <exec.workingdir>${project.basedir}/..</exec.workingdir>
+            <exec.mainClass>com.mycompany.tubestest.TubesTest</exec.mainClass>
+        </properties>
+    </action>
+    <action>
+        <actionName>debug</actionName>
+        <packagings>
+            <packaging>jar</packaging>
+        </packagings>
+        <goals>
+            <goal>compile</goal>
+            <goal>exec:java</goal>
+        </goals>
+        <properties>
+            <exec.workingdir>${project.basedir}/..</exec.workingdir>
+            <exec.mainClass>com.mycompany.tubestest.TubesTest</exec.mainClass>
+        </properties>
+    </action>
+    <action>
+        <actionName>build</actionName>
+        <packagings>
+            <packaging>jar</packaging>
+        </packagings>
+        <goals>
+            <goal>compile</goal>
+        </goals>
+    </action>
+</actions>
