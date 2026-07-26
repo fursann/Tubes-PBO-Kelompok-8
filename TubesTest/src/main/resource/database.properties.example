@@ -1,1 +1,4 @@
-
+# Salin file ini menjadi database.properties (jangan commit password asli ke repo publik)
+db.url=jdbc:mysql://localhost:3306/cleanhub?useSSL=false&serverTimezone=Asia/Jakarta
+db.user=root
+db.password=
